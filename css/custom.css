@@ -1,0 +1,19 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el contenedor de búsqueda */
+#search-container {
+    margin: 20px;
+}
+
+/* Estilos para el contenedor de resultados */
+#results-container {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
