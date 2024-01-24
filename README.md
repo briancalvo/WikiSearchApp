@@ -20,7 +20,7 @@ Para instalar y ejecutar WikiSearchApp en tu entorno local, sigue estos pasos:
 
 1. Clona el repositorio:
 
-git clone [URL del repositorio]
+git clone https://github.com/briancalvo/WikiSearchApp.git
 
 2. Navega al directorio del proyecto:
 
