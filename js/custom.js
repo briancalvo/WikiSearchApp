@@ -4,6 +4,14 @@ document.getElementById('search-button').addEventListener('click', function() {
     searchInWikipedia(searchTerm);
 });
 
+// Mejora del 'event listener' que permite a los usuarios presionar 'Enter' en lugar de hacer clic en el botón 'Buscar'
+document.getElementById('search-term').addEventListener('keyup', function(event) {
+    // Verifica si la tecla presionada es 'Enter'
+    if (event.key === 'Enter') {
+        search();
+    }
+});
+
 function searchInWikipedia(searchTerm) {
     // Construye la URL para la API de Wikipedia. Usa 'encodeURIComponent' para asegurar que el término
     // de búsqueda se añada a la URL de manera segura, especialmente si contiene caracteres especiales.
